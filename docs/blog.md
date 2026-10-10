@@ -21,8 +21,8 @@ in code, before reading a single row.
 
 Everything is visible in a Streamlit observer, one message at a time.
 
-It is ~2,300 lines of Python across four processes. This is how it is built, and the eight things
-that cost me real time.
+It is ~2,900 lines of Python across four processes and a shared `core/` package. This is how it is
+built, and the eight things that cost me real time.
 
 ---
 

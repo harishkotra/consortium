@@ -9,8 +9,6 @@ the language model, decides what is allowed.
 
 Every A2A message and every tool call is visible, one at a time, in a live observer.
 
-**Built by [Harish Kotra](https://harishkotra.me) · [Checkout my other builds](https://dailybuild.xyz)**
-
 ![The consortium observer, mid-negotiation](docs/assets/observer.png)
 
 ---
@@ -537,7 +535,3 @@ Good first issues:
 - **A denial that is also a negotiation.** When the MCP server refuses, feed the refusal back into
   the A2A loop as a `request` turn so the agents renegotiate automatically — with the human watching
   the second negotiation happen.
-
----
-
-Built by [Harish Kotra](https://harishkotra.me) · [Checkout my other builds](https://dailybuild.xyz)

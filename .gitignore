@@ -44,3 +44,7 @@ Thumbs.db
 # --- throwaway ---
 _scratch_*.py
 *.local
+
+docs/blog.md
+docs/linkedin-post.md
+docs/x-thread.md

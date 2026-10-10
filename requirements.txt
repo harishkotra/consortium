@@ -1,0 +1,21 @@
+# Microsoft Agent Framework 1.x — core, the OpenAI-compatible chat client, and the A2A connector.
+# The `agent-framework` meta package also works but installs ~30 provider integrations you
+# do not need; these three are what this demo imports.
+agent-framework-core==1.21.0
+agent-framework-openai==1.16.0
+agent-framework-a2a==1.0.0b261002
+
+# A2A protocol implementation (agent-framework-a2a depends on it; pinned for the agent-card and
+# JSON-RPC route helpers used directly by vendor_agent.py / buyer_agent.py).
+a2a-sdk==1.2.2
+
+# MCP server + client
+mcp==1.30.0
+
+# HTTP serving and the observer UI
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+streamlit==1.65.0
+httpx==0.28.1
+openai==3.28.0
+python-dotenv==1.2.4
